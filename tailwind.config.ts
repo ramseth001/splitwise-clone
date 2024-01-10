@@ -16,7 +16,8 @@ const config: Config = {
       colors: {
         transparent: 'transparent',
         'teal': '#1cc29f',
-        'grey-light': '#52595f'
+        'grey-light': '#52595f',
+        'grey-lightest': '#E6E8EE',
       }
     },
   },
