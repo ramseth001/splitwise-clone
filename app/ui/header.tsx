@@ -1,18 +1,12 @@
 import Logo from "@/public/images/logo.svg"
 import Link from 'next/link'
 import Image from "next/image"
-import { Montserrat } from 'next/font/google'
-
-const lato = Montserrat({
-    subsets: ['latin'],
-    weight: ["300", "400", "500", "600",],
-    style: ["normal"]
-})
+import { mont } from "./fonts"
 
 export default function Header() {
     return (
         <div className="container mx-auto">
-            <header className={`flex justify-between items-center p-8 ${lato.className}`}>
+            <header className={`flex justify-between items-center p-8 ${mont.className}`}>
                 <Link href="/" className="flex items-center w-[105px] h-[36px] sm:w-[140px] sm:h-[48px]">
                     <Image className="inline" src={Logo} alt="Splitwise Logo" />
                 </Link>

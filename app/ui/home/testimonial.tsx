@@ -1,6 +1,6 @@
-import { Montserrat } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
+import { mont } from "../fonts";
 
 interface TestimonialInterface {
     content: string;
@@ -8,11 +8,6 @@ interface TestimonialInterface {
     url?: string;
     imgUrl?: string;
 }
-const mont = Montserrat({
-    subsets: ['latin'],
-    weight: ["300", "400", "500", "600",],
-    style: ["normal"]
-})
 
 const testimonialsJson: TestimonialInterface[] = [
     {

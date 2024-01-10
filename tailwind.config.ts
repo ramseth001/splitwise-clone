@@ -18,6 +18,10 @@ const config: Config = {
         'teal': '#1cc29f',
         'grey-light': '#52595f',
         'grey-lightest': '#E6E8EE',
+        'charcoal': '#373B3F',
+      },
+      fontSize: {
+        '3.5xl': '2.25rem'
       }
     },
   },
