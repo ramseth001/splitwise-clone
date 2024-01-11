@@ -1,5 +1,5 @@
 import './globals.css'
-import { lato } from './ui/fonts'
+import { lato } from './fonts'
 
 export default function RootLayout({
   children,

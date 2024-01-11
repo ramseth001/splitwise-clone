@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { mont } from "../fonts";
+import { mont } from "../../fonts";
 
 interface TestimonialInterface {
     content: string;
