@@ -19,6 +19,7 @@ const config: Config = {
         'grey-light': '#52595f',
         'grey-lightest': '#E6E8EE',
         'charcoal': '#373B3F',
+        'charcoal-trans': "#373b3f4d",
       },
       fontSize: {
         '3.5xl': '2.25rem'

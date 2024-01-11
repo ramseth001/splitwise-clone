@@ -1,5 +1,6 @@
 import { mont } from "@/app/fonts";
 import Image from "next/image";
+import Link from "next/link";
 
 interface ScreenshotDetailsInterface {
     title: string,
@@ -41,6 +42,20 @@ export default function Screenshots() {
         {
             screenshotsDetailsArray.map(e => <Screenshot key={e.title} object={e} />)
         }
+        <div className="bg-purple-600 flex flex-col lg:flex-row pt-8 text-white w-full bg-facets">
+            <div className="lg:w-1/2 lg:flex lg:flex-col lg:justify-center">
+                <h2 className={`text-2xl text-center ${mont.className} mx-auto`}>Get even more with PRO</h2>
+                <p className="text-center text-lg mt-2 mb-4 mx-auto px-8 max-w-sm">Get even more organized with receipt scanning, charts and graphs, currency conversion, and more!</p>
+                <div className="flex my-5 lg:my-4">
+                    <Link href={"/signup"} className={`mx-auto py-2 px-10 py-3 border border-white shadow rounded ${mont.className} font-semibold bg-charcoal-trans button-hover`}>Sign up</Link>
+                </div>
+            </div>
+            <div className="lg:w-1/2">
+                <div className="w-64 lg:w-80 mx-auto">
+                    <Image src="https://www.splitwise.com/assets/home_page/fixtures/asset5@2x.png" alt="Get even more with PRO" fill className="!static" />
+                </div>
+            </div>
+        </div>
     </div>
 }
 
