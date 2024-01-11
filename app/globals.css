@@ -33,3 +33,16 @@ body {
   box-shadow: none;
   opacity: 0.95;
 }
+
+.bg-facets {
+  background-image: url("https://assets.splitwise.com/assets/core/facets.png");
+  background-repeat: repeat-x;
+  background-position: center 0px;
+  background-size: 1000px;
+}
+
+@media (min-width: 768px) {
+  .bg-facets {
+    background-size: 1250px;
+  }
+}

@@ -26,5 +26,9 @@ const config: Config = {
     },
   },
   plugins: [],
+  safelist: [
+    'bg-charcoal',
+    'bg-orange-400',
+  ]
 }
 export default config
