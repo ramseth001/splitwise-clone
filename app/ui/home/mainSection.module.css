@@ -1,0 +1,128 @@
+.sm-icon {
+    margin: 0 0.625rem;
+    cursor: pointer;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes fadeOutIcon {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0.4
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeInIcon {
+    0% {
+        opacity: 0.4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.fade-out {
+    animation-name: fadeOut
+}
+
+.fade-in {
+    animation-name: fadeIn
+}
+
+.fade-in-icon {
+    animation-name: fadeInIcon
+}
+
+.fade-out-icon {
+    animation-name: fadeOutIcon
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both
+}
+
+.animate-slow {
+    animation-duration: 2s;
+    animation-fill-mode: both
+}
+
+
+
+@keyframes tealToPurple {
+    0% {
+        background: var(--color-teal)
+    }
+
+    to {
+        background: var(--color-purple-550)
+    }
+}
+
+@keyframes purpleToRed {
+    0% {
+        background-color: var(--color-purple-550)
+    }
+
+    to {
+        background-color: var(--color-red-550)
+    }
+}
+
+@keyframes redToTeal {
+    0% {
+        background-color: var(--color-red-550)
+    }
+
+    to {
+        background-color: var(--color-teal)
+    }
+}
+
+@keyframes tealToTeal {
+    0% {
+        background: var(--color-teal)
+    }
+
+    to {
+        background: var(--color-teal)
+    }
+}
+
+.teal-to-purple {
+    animation-name: tealToPurple
+}
+
+.purple-to-red {
+    animation-name: purpleToRed
+}
+
+.red-to-teal {
+    animation-name: redToTeal
+}
+
+.teal-to-teal {
+    animation-name: tealToTeal
+}

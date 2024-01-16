@@ -15,11 +15,15 @@ const config: Config = {
       },
       colors: {
         transparent: 'transparent',
-        'teal': '#1cc29f',
+        'teal': "var(--color-teal)",
         'grey-light': '#52595f',
         'grey-lightest': '#E6E8EE',
         'charcoal': '#373B3F',
         'charcoal-trans': "#373b3f4d",
+        'red-550': "var(--color-red-550)",
+        purple: {
+          550: "var(--color-purple-550)"
+        },
       },
       fontSize: {
         '3.5xl': '2.25rem'
@@ -30,6 +34,7 @@ const config: Config = {
   safelist: [
     'bg-charcoal',
     'bg-orange-400',
+    'hidden',
   ]
 }
 export default config

@@ -6,6 +6,10 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --color-teal: #1cc29f;
+  --color-red-550: #A6002F;
+  --color-purple-550: #8656CD;
 }
 
 :root {
