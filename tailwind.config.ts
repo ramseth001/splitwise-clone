@@ -27,6 +27,10 @@ const config: Config = {
       },
       fontSize: {
         '3.5xl': '2.25rem'
+      },
+      width: {
+        100: '25rem',
+        150: '37.75rem',
       }
     },
   },

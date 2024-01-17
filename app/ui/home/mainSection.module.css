@@ -126,3 +126,241 @@
 .teal-to-teal {
     animation-name: tealToTeal
 }
+
+.lg-any,
+.lg-heart,
+.lg-house,
+.lg-plane {
+    animation-duration: 1s
+}
+
+.lg-icon path {
+    animation-fill-mode: both;
+    animation-iteration-count: infinite
+}
+
+
+.adu1 {
+    animation-duration: 3s
+}
+
+.adu2 {
+    animation-duration: 4s
+}
+
+.adu3 {
+    animation-duration: 5s
+}
+
+.adu4 {
+    animation-duration: 6s
+}
+
+.ad1 {
+    animation-delay: -1s
+}
+
+.ad2 {
+    animation-delay: -2s
+}
+
+.ad3 {
+    animation-delay: -3s
+}
+
+.ad4 {
+    animation-delay: -4s
+}
+
+.ad5 {
+    animation-delay: -5s
+}
+
+@keyframes sp28 {
+
+    0%,
+    to {
+        fill: #ebf7f4
+    }
+
+    35% {
+        fill: #fff
+    }
+}
+
+.s-p28 {
+    animation-name: sp28;
+    fill: #ebf7f4
+}
+
+@keyframes sp0 {
+
+    0%,
+    to {
+        fill: #ACE4D6
+    }
+
+    30% {
+        fill: #1CC29F
+    }
+}
+
+.s-p0 {
+    animation-name: sp0;
+    fill: #ACE4D6
+}
+
+@keyframes sp1 {
+
+    0%,
+    to {
+        fill: #1CC29F
+    }
+
+    40% {
+        fill: #ACE4D6
+    }
+}
+
+.s-p1 {
+    -webkit-animation-name: sp1;
+    animation-name: sp1;
+    fill: #1CC29F
+}
+
+@keyframes sp2 {
+
+    0%,
+    to {
+        fill: #137863
+    }
+
+    50% {
+        fill: #0c3c32
+    }
+}
+
+.s-p2 {
+    -webkit-animation-name: sp2;
+    animation-name: sp2;
+    fill: #137863
+}
+
+@keyframes sp3 {
+
+    0%,
+    to {
+        fill: #137863
+    }
+
+    60% {
+        fill: #0c3c32
+    }
+}
+
+.s-p3 {
+    animation-name: sp3;
+    fill: #0c3c32
+}
+
+@keyframes sh4 {
+
+    0%,
+    to {
+        fill: #a473db
+    }
+
+    25% {
+        fill: #dec9f1
+    }
+}
+
+.s-h4 {
+    animation-name: sh4;
+    fill: #a473db
+}
+
+@keyframes sh5 {
+
+    0%,
+    to {
+        fill: #dec9f1
+    }
+
+    45% {
+        fill: #a473db
+    }
+}
+
+.s-h5 {
+    animation-name: sh5;
+    fill: #dec9f1
+}
+
+@keyframes sh6 {
+
+    0%,
+    to {
+        fill: #8f4ed3
+    }
+
+    55% {
+        fill: #4a276d
+    }
+}
+
+.s-h6 {
+    animation-name: sh6;
+    fill: #8f4ed3
+}
+
+@keyframes sh7 {
+
+    0%,
+    to {
+        fill: #4a276d
+    }
+
+    50% {
+        fill: #8f4ed3
+    }
+}
+
+.s-h7 {
+    animation-name: sh7;
+    fill: #4a276d
+}
+
+@keyframes sh8 {
+
+    0%,
+    to {
+        fill: #d0b3eb
+    }
+
+    35% {
+        fill: #ece0f7
+    }
+}
+
+.s-h8 {
+    animation-name: sh8;
+    fill: #d0b3eb
+}
+
+@keyframes sh9 {
+
+    0%,
+    to {
+        fill: #ece0f7
+    }
+
+    60% {
+        fill: #d0b3eb
+    }
+}
+
+.s-h9 {
+    animation-name: sh9;
+    fill: #ece0f7
+}
